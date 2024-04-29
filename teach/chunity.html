@@ -1,0 +1,192 @@
+<!-- website: Artful Design (http://artful.design/)
+      author: Ge Wang (http://www.gewang.com/ | http://ccrma.stanford.edu/~ge/) -->
+<html lang="en">
+
+<!-- HTML head -->
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125238768-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125238768-1');
+</script>-->
+<!-- character set -->
+<meta charset="utf-8">
+<!-- responsive viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta name="keywords" content="Artful Design, Technology in Search of the Sublime,
+A MusiComic Manifesto, Ge Wang, Stanford University Press, CCRMA, ChucK, Ocarina, Smule,
+Stanford Laptop Orchestra, CCRMA, design, art, computer, music, technology, aeshetics, philosophy,
+engineering, ethics, comic book, textbook, education">
+<meta property="og:url" content="https://artful.design/teach/chunity/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Artful Design | Chunity (Workshop)" />
+<meta property="og:description" content="Interactive Audiovisual Design with ChucK in Unity" />
+<meta property="og:image" content="https://ccrma.stanford.edu/~ge/artfuldesign/ocarina/images/ocarina2.jpg" />
+<meta property="fb:app_id" content="966242223397117" /> <!--default app id-->
+<!-- file-specific style and overrides -->
+<style>
+
+body { background: white !important; }
+/*a:link { color: #66CCFF !important; }*/
+/*a:link:hover { color: #66FFFF !important; text-decoration:none !important; }*/
+/* adding !important forces the browser to overwrite the default style applied by Bootstrap */
+
+.caption-materials {
+  position: absolute;
+  left: 6%;
+  top: 28%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption-section {
+  position: absolute;
+  left: 0%;
+  top: 33%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
+
+.shadow-this {
+    text-color: white;
+    text-shadow: 2px 0px 5px black;
+}
+</style>
+<!-- include bootstrap CSS file -->
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<!-- include artful.design CSS file -->
+<link rel="stylesheet" type="text/css" href="../css/artful-design.css">
+<!-- page icons-->
+<link rel="apple-touch-icon" sizes="180x180" href="../images/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/icon/favicon-16x16.png">
+<link rel="manifest" href="../images/icon/site.webmanifest">
+<link rel="mask-icon" href="../images/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="canonical" href="https://artful.design/pi/" />
+<!-- page title -->
+<title>Artful Design | Chunity Workshop</title>
+<!-- header end -->
+</head>
+
+<!-- content body -->
+<body>
+
+<!-- main navbar -->
+<nav class="navbar navbar-light navbar-expand-custom fixed-top d-print justify-content-end">
+   <!-- BRAND -->
+   <a class="navbar-brand mr-2" href="../">
+    <img src="../images/title/artful-design-title-logo-b-sm.png" alt="Artful Design logo" style="width:200px;">
+   </a>
+  <!-- BUY button -->
+  <a class="btn btn-primary btn-lg" href="../buy.html">BOOK</a>
+  <!-- toggler/collapsibe Button -->
+  <button class="navbar-toggler ml-auto artful-hamburger" type="button" data-toggle="collapse" id="artful-hamburger" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- navbar links -->
+  <div class="collapse navbar-collapse flex-grow-1 text-right topnav" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto flex-nowrap">
+      <li class="nav-item">
+        <a class="nav-link" href="../">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../chapters.html">CHAPTERS</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="../author.html">AUTHOR</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link active" href="../teach/">TEACH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../events.html">EVENTS</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="../tv/">AD:TV</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="../more.html">MORE...</a>
+      </li> 
+    </ul>
+  </div>
+</nav>
+<!-- end navbar -->
+
+
+<!-- hack -->
+<br><br><br><br><br>
+<center>
+
+<!-- MAIN SPLASH IMAGE -->
+<div class="col-lg-6 col-md-9 col-sm-9 col-xs-9 container">
+
+<img class="img-fluid col-lg-9 col-md-9 col-sm-9 col-xs-9" src="images/chunity-workshop.jpg">
+<br><br>
+
+<h3>Workshop: Chunity!</h3>
+<p align="justify">In this workshop, participant will learn to work with <a target="_blank" href="https://chuck.stanford.edu/chunity">Chunity</a>—a programming environment for the creation of interactive audiovisual tools, instruments, games, and VR experiences. It embodies an audio-driven, sound-first approach that integrates audio programming and graphics programming in the same workflow, taking advantage of strongly-timed audio programming features of the ChucK audio programming language and the state-of-the-art real-time graphics engine found in Unity. Any prior experience with ChucK or Unity would be helpful but is not necessary for this workshop. In this workshop, participants will learn:</p>
+
+<font size="3">
+<ul>
+1) the fundamentals of Chunity workflow from ChucK to Unity,<br>
+2) how to architect audio-driven, strongly-timed software using Chunity,<br>
+3) design principles for interactive audiovisual/VR software
+</ul>
+
+<b>ChucK</b> Resources<br>
+<a target="_blank" href="https://chuck.stanford.edu/">homepage</a> |
+<a target="_blank" href="https://chuck.stanford.edu/release/">download</a> (all platforms)
+<!--| <a target="_blank" href="https://chuck.stanford.edu/release/files/exe/chuck-1.4.1.1.pkg">apple silicon RC</a>-->
+<br>
+<a target="_blank" href="https://chuck.stanford.edu/doc/">documentation</a> | 
+<a target="_blank" href="https://chuck.stanford.edu/doc/examples">examples</a> | 
+<a target="_blank" href="https://chuck.stanford.edu/doc/program/ugen.html">UGen reference</a>
+<br><br>
+
+<b>Unity</b> Resources<br>
+<a target="_blank" href="https://unity3d.com/get-unity/download">download and install</a> |
+<a target="_blank" href="https://learn.unity.com/project/roll-a-ball">"Roll-a-ball" tutorial</a>
+<br><br>
+
+<b>Chunity</b> Resources<br>
+<a target="_blank" href="https://chuck.stanford.edu/chunity">homepage</a> |
+<a target="_blank" href="https://mcd.stanford.edu/publish/files/2018-nime-chunity.pdf">paper</a> |
+<a target="_blank" href="https://assetstore.unity.com/packages/tools/audio/chunity-chuck-for-unity-118383">chunity on Asset Store</a><br>
+<!--| <a target="_blank" href="https://chuck.stanford.edu/chunity/builds/">pre-release builds</a>-->
+<a target="_blank" href="https://chuck.stanford.edu/chunity/tutorials/">Chunity tutorials</a> (continues from <a target="_blank" href="https://learn.unity.com/project/roll-a-ball">"Roll-a-ball"</a>) |
+<a target="_blank" href="https://www.youtube.com/watch?v=LZMLEfjq8Ns">"Chicken Sequencer"</a> (Chunity tutorial | <a target="_blank" href="https://artful.design/tv/tutorials/files/chickencer.unitypackage">package</a>)
+<br>
+Made with Chunity:
+<a target="_blank" href="https://vimeo.com/263613454">early demo reel</a> |
+<a target="_blank" href="https://www.youtube.com/watch?v=TftZ5oylR6s">sequencers</a> |
+<a target="_blank" href="https://ccrma.stanford.edu/courses/256a-fall-2021/">Music 256a (course @ Stanford)</a><br>
+<a target="_blank" href="https://www.youtube.com/watch?v=NnWQ5xpKBCk">MIDI.CITI</a> (Kunwoo Kim) | 
+<a target="_blank" href="https://www.youtube.com/watch?v=8s1knkVKh0g">Resilience</a> (Jack Atherton)<br>
+<br>
+<p align="justify"><b>instructor bio</b><br>
+<a target="_blank" href="https:/ccrma.stanford.edu/~ge/">Ge Wang</a> is an Associate Professor at Stanford University’s Center for Computer Research in Music and Acoustics (CCRMA). He researches the artful design of tools, toys, games, instruments, programming languages, virtual reality experiences, and interactive AI systems with humans in the loop. Ge is the architect of the <a target="_blank" href="https://chuck.stanford.edu/">ChucK</a> audio programming language and the director of the <a target="_blank" href="https://slork.stanford.edu/">Stanford Laptop Orchestra</a> and the <a target="_blank" href="https://xr.stanford.edu/">Stanford VR Design Lab</a> @ CCRMA. He is the Co-founder of Smule and the designer of the <a target="_blank" href="../ocarina/">Ocarina</a> and Magic Piano apps for mobile phones. A 2016 Guggenheim Fellow, Ge is the author of <i><a target="_blank" href="../">Artful Design: Technology in Search of the Sublime</a></i>, a photo comic book about how we shape technology—and how technology shapes us.</p>
+</div>
+<br><br>
+
+
+<!-- scripts -->
+<script src="../js/jquery-3.3.1.slim.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- content end -->
+</body>
+</html>

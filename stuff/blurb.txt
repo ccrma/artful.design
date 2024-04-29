@@ -1,0 +1,24 @@
+What is the nature of design, and the meaning it holds in human life?  
+What does it mean to design well -- to design ethically?  How can the 
+shaping of technology reflect our values as human beings?
+
+Meticulously designed as a comic book for the "engineer with a soul", 
+Artful Design explores how we shape technology, and how technology 
+shapes all of us in turn.  Using music technology as a vehicle, this 
+book presents concrete case studies of tools, toys, music technology, 
+instruments, software, games, and social networks.  Every chapter 
+elaborates a set of design principles and strategies that illuminate the 
+essential relationship between art and engineering, ethics and our 
+technological-mediated society.
+
+Written by Stanford University Professor and Smule Co-founder Ge Wang 
+(designer of Ocarina and Magic Piano for the iPhone, creator of the 
+ChucK music programming language, and director of the Stanford Laptop 
+Orchestra), Artful Design is a genre- and discipline-crossing 
+exploration into the ethical and aesthetic dimensions of technology -- 
+and a meditation for all engineers, tool-builders, and anyone curious 
+about design as a profound agent that shapes our world, our society, and 
+ourselves.
+
+Learn more:
+https://artful.design/

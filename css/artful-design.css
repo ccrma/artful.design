@@ -1,0 +1,296 @@
+
+@font-face {
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: bold;
+    src: url('../fonts/OpenSansBold.eot');
+    src: url('../fonts/OpenSansBold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansBold.woff2') format('woff2'),
+         url('../fonts/OpenSansBold.woff') format('woff'),
+         url('../fonts/OpenSansBold.ttf') format('truetype'),
+         url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: italic;
+    src: url('../fonts/OpenSansLightItalic.eot');
+    src: url('../fonts/OpenSansLightItalic.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansLightItalic.woff2') format('woff2'),
+         url('../fonts/OpenSansLightItalic.woff') format('woff'),
+         url('../fonts/OpenSansLightItalic.ttf') format('truetype'),
+         url('../fonts/OpenSansLightItalic.svg#OpenSansLightItalic') format('svg');
+}
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSansLight.eot');
+    src: url('../fonts/OpenSansLight.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansLight.woff2') format('woff2'),
+         url('../fonts/OpenSansLight.woff') format('woff'),
+         url('../fonts/OpenSansLight.ttf') format('truetype'),
+         url('../fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 14px/1.5 OpenSans, sans-serif;
+  /*font: 400 15px/1.5 'Josefin Sans', sans-serif;*/
+  color: #333;
+}
+
+h3 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font: 22px OpenSans, sans-serif;
+  /*font: 22px 'Josefin Sans', sans-serif;*/
+  color: #111;
+  text-align:center;
+}
+
+/* add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 2px 0px;
+    text-decoration: none;
+    font-size: 22px;
+    border-bottom: 2px solid transparent;
+}
+
+.topnav a:hover {
+    font-color: solid blue;
+    border-bottom: 2px solid gray;
+}
+
+.topnav a.active {
+    border-bottom: 2px solid black;
+}
+
+/* was: 900; */
+@media (max-width: 1000px) {
+    .topnav a {
+        font-size: 17px;
+    }
+}
+
+/* was: 720; */
+@media (max-width: 640px) { 
+    .topnav a {
+        font-size: 22px;
+    }
+}
+
+/* custom nav collapse point */
+/* https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less */
+@media (min-width: 860px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+.artful-hamburger {
+  padding: 6.5px 10px !important;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, white 100%, transparent 100%);
+    border-bottom: 3px solid #000;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption-sup {
+  position: absolute;
+  left: 0;
+  top: 89%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption-chapter {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption-more {
+  position: absolute;
+  left: 30;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption-events {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption-sup span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption2 {
+  position: absolute;
+  left: 18%;
+  top: 12%;
+  width: 50%;
+  text-align: left;
+  color: #000;
+}
+
+.caption2 span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption3 {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption3 span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.artful-body-section {
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:50px 40px;     /* padding width for teensy devices is 20px */
+    text-align: justify;
+}
+
+.artful-body-chapter {
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:50px 35px;     /* padding width for teensy devices is 20px */
+    text-align: justify;
+}
+
+.artful-body-event {
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:50px 35px;     /* padding width for teensy devices is 20px */
+    text-align: justify;
+}
+
+p {
+    font-size: 16px;
+}
+
+@media (min-width: 576px) { 
+    .artful-body-section {
+        padding: 50px 55px; /* the second number is width */
+    }
+    .artful-body-chapter {
+        padding: 50px 55px; /* the second number is width */
+    }
+    .artful-body-event {
+        padding: 50px 55px; /* the second number is width */
+    }
+}
+
+@media (min-width: 768px) {
+    .artful-body-section {
+        padding: 50px 70px; /* etc */
+    }
+    .artful-body-chapter {
+        padding: 50px 105px; /* etc */
+    }
+    .artful-body-event {
+        padding: 50px 105px; /* etc */
+    }
+}
+
+@media (min-width: 992px) {
+    .artful-body-section {
+        padding: 50px 120px; /* etc */
+    }
+    .artful-body-chapter {
+        padding: 50px 200px; /* etc */
+    }
+    .artful-body-event {
+        padding: 50px 250px; /* etc */
+    }
+}
+
+@media (min-width: 1200px) {
+    .artful-body-section {
+        padding: 50px 200px; /* etc */
+    }
+    .artful-body-chapter {
+        padding: 50px 300px; /* etc */
+    }
+    .artful-body-event {
+        padding: 50px 350px; /* etc */
+    }
+}

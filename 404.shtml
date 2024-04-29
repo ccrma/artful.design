@@ -1,0 +1,126 @@
+<!-- website: Artful Design (http://artful.design/)
+      author: Ge Wang (http://www.gewang.com/) -->
+<html lang="en">
+
+<!-- HTML head -->
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125238768-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125238768-1');
+</script>
+
+<!-- character set -->
+<meta charset="utf-8">
+<!-- responsive viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta name="keywords" content="Artful Design, Technology in Search of the Sublime,
+A MusiComic Manifesto, Ge Wang, Stanford University Press, CCRMA, ChucK, Ocarina, Smule,
+Stanford Laptop Orchestra, CCRMA, design, art, computer, music, technology, aeshetics, philosophy,
+engineering, ethics, comic book, textbook, education">
+<meta property="og:image" content="https://artful.design/images/gesticulate/ge-404.png" />
+<!-- file-specific style and overrides -->
+<style>
+.bgimg-1 {
+  position: relative;
+  opacity: .95;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("images/full/artful-design-full-4.jpg");
+  min-height: 100%;
+}
+
+</style>
+<!-- include bootstrap CSS file -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<!-- include artful.design CSS file -->
+<link rel="stylesheet" type="text/css" href="/css/artful-design.css">
+<!-- page icons-->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/icon/favicon-16x16.png">
+<link rel="manifest" href="/images/icon/site.webmanifest">
+<link rel="mask-icon" href="/images/icon/safari-pinned-tab.svg" color="#5bbad5">
+<!-- page title -->
+<title>Artful Design | 404 Error</title>
+<!-- header end -->
+</head>
+
+<!-- content body -->
+<body>
+
+<!-- main navbar -->
+<nav class="navbar navbar-light navbar-expand-md fixed-top d-print justify-content-end">
+   <!-- BRAND -->
+   <a class="navbar-brand mr-2" href="./">
+    <img src="/images/title/artful-design-title-logo-b-sm.png" alt="Artful Design logo" style="width:200px;">
+   </a>
+  <!-- BUY button -->
+  <a class="btn btn-primary btn-lg" href="./">BOOK</a>
+  <!-- toggler/collapsibe Button -->
+  <button class="navbar-toggler ml-auto artful-hamburger" type="button" data-toggle="collapse" id="artful-hamburger" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- navbar links -->
+  <div class="collapse navbar-collapse flex-grow-1 text-right topnav" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto flex-nowrap">
+      <li class="nav-item">
+        <a class="nav-link active" href="./">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="chapters.html">CHAPTERS</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="author.html">AUTHOR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="teach/">TEACH</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="events.html">EVENTS</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="tv/">AD:TV</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="more.html">MORE...</a>
+      </li> 
+    </ul>
+  </div>
+</nav>
+<!-- end navbar -->
+
+
+<!-- hack -->
+<br><br><br><br>
+<!-- TEXT -->
+<div class="artful-body-section">
+
+<center>
+<!-- PORTRAIT -->
+<img class="img-fluid mb-3" width="360" style="max-width: 95%" src="/images/gesticulate/ge-404.jpg">
+</center>
+
+  <h3>Your HTTP request has transcended the capabilities of this website...</h3>
+  <center>Please try again... or <a href="/">go back to the main page</a></center>
+
+</div>
+
+<!-- scripts -->
+<script src="/js/jquery-3.3.1.slim.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- content end -->
+</body>
+</html>
