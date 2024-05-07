@@ -1,2 +1,2 @@
 # artful.design
-artful design website
+the artful.design website
