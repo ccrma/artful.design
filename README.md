@@ -1,2 +1,4 @@
 # artful.design
-artful design website
+the artful.design website
+
+(FYI additional material in Ge's `design-web` SVN repo)
